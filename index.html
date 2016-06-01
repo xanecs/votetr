@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>VoteTracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/c6fbb60ee5.js"></script>
+</head>
+<body>
+  <script src="script.js"></script>
+  <!-- Facebook SDK-->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1775650905990253',
+        xfbml      : true,
+        version    : 'v2.4'
+      });
+
+      init();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <h1>VoteTracker</h1>
+  <div id="leader-root"></div>
+  <div id="last-updated"></div>
+</body>
+</html>

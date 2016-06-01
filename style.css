@@ -1,0 +1,38 @@
+body {
+  font-family: 'Helvetica Neue', helvetica, sans-serif;
+  background: #222;
+  color: #fff;
+}
+
+body > h1 {
+  text-align: center;
+}
+
+#leader-root {
+  margin: 0 64px;
+}
+
+.list-item {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 32px;
+}
+
+.list-item > h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: coral;
+}
+
+.total {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.fb, .insta {
+  float: left;
+  margin-right: 16px;
+}
+
+.fb > .fa, .insta > .fa {
+  margin-left: 4px;
+}
