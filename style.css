@@ -36,3 +36,10 @@ body > h1 {
 .fb > .fa, .insta > .fa {
   margin-left: 4px;
 }
+
+.last-updated {
+  color: #aaa;
+  text-align: center;
+  margin-top: 32px;
+  font-size: 12px;
+}

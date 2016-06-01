@@ -118,4 +118,7 @@ function updateView() {
     listEl.appendChild(instaEl);
     rootDiv.appendChild(listEl);
   }
+
+  var updatedEl = document.getElementById('last-updated');
+  updatedEl.innerText = new Date().toLocaleTimeString();
 }
