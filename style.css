@@ -14,17 +14,17 @@ body > h1 {
 
 .list-item {
   border-bottom: 1px dotted #ccc;
-  padding-bottom: 32px;
+  padding-bottom: 32pt;
 }
 
 .list-item > h2 {
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 20pt;
   color: coral;
 }
 
 .total {
-  font-size: 48px;
+  font-size: 48pt;
   margin-bottom: 16px;
 }
 
@@ -41,5 +41,5 @@ body > h1 {
   color: #aaa;
   text-align: center;
   margin-top: 32px;
-  font-size: 12px;
+  font-size: 12pt;
 }
